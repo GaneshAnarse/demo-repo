@@ -1,4 +1,4 @@
-public class Kingdom{
+class Kingdom{
 	private String name;
 	
 	public String getName(){
@@ -11,12 +11,12 @@ public class Kingdom{
 	
 }
 
-class Ssp{
+public class Ssp{
 	
 	public static void main(String []args){
 		Kingdom obj = new Kingdom();
 		obj.setName("Saurabh S Patil");
-		System.out.println("Print the name "+getName());
+		System.out.println("Print the name "+obj.getName());
 		
 	}
 }
